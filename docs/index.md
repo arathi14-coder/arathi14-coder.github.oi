@@ -5,18 +5,18 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6"> Ayush Rathi Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Setting up git /font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team  </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: sept, 09, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This is into to github and setting up a git and forking it 
 
 ### Project Summary
 

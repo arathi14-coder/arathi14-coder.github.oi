@@ -3,15 +3,15 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The purpose of this power budget is to estimate the total current draw and energy consumption of the project’s hardware components.  
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![Power Budget - Page 1](budgetPg1.png){style="width:350px; height:300px;"}
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
+![Power Budget - Page 2](budgetPg2.png){style="width:350px; height:300px;"}
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+![Power Budget - Page 3](budgetPg3.png){style="width:350px; height:300px;"}
 
 ## Conclusions
 
