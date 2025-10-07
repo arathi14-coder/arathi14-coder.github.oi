@@ -6,13 +6,8 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
+The purpose of this block diagram is to illustrate the design and signal flow of a **current monitoring and alert system** using the **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.  
+The system is powered through the Curiosity Nano’s regulated 5V USB supply, which also powers the connected sensors and output components.
 * ...
 
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
