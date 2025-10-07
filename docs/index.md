@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6"> Ayush Rathi Datasheet</font><br>
 as part of<br>
-<font size= "8"> Setting up git /font><br>
+<font size= "6"> Setting up git /font><br>
 for<br>
 <font size= "5"> Team  </font><br>
 
