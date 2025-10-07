@@ -7,13 +7,13 @@ tags:
 <center>
 <font size= "6"> Ayush Rathi Datasheet</font><br>
 as part of<br>
-<font size= "6"> Setting up git /font><br>
+<font size= "6"> Project Name
 for<br>
 <font size= "5"> Team  </font><br>
 
 **Submission: sept, 09, 2025**
 </center>
-
+<font size= "5">  
 ## Introduction
 
 * This is into to github and setting up a git and forking it 
@@ -33,3 +33,4 @@ for<br>
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
+ </font><br>
