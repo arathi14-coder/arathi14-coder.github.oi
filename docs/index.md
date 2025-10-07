@@ -20,7 +20,7 @@ for<br>
 
 ### Project Summary
 
-* This is the first assignment with git hub where students create their own public rep and publish it.
+* This is the first assignment with git hub where students create their own public rep and publish it
 
 
 
