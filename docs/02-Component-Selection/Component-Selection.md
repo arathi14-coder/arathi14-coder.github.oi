@@ -8,7 +8,7 @@ title: Component Selection Example
 
 1. XC1259TR-ND surface mount crystal
 
-    ![](image1.png)
+    ![](Screenshot%202025-10-27%20100652.png)
 
     * $1/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
