@@ -843,12 +843,14 @@
   <h1>Individal Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>The purpose of this block diagram is to illustrate the design and signal flow of a current monitoring and alert system using the Microchip PIC18F57Q43 Curiosity Nano microcontroller.The system is powered through the Curiosity Nano’s regulated 5V USB supply, which also powers the connected sensors and output components.</p>
-<p>Power Source:5V DC (via USB)<br>
-Sensor: ACS712<br>
-Actuators:LED, Buzzer<br>
-Signal Processing: MCP6002 Op-Amp, ADC/DAC on PIC18F57Q43<br>
-Communication:RX line to Connector 2 (digital/analog expansion)</p>
+<p>The purpose of this block diagram is to illustrate the design and signal flow of the locking mechanism and safety indicator system for the Smart Extension Cord. This subsystem uses the Microchip PIC18F57Q43 Curiosity Nano microcontroller to control a bidirectional solenoid through an H-Bridge driver, enabling automated locking and unlocking of the outlet cover for enhanced user safety.</p>
+<p>A LED indicator provides feedback on current flow, ensuring the user knows when the circuit is active or safe to touch. This system is powered by a regulated 5V DC supply and communicates with the main controller through the digital I/O expansion connector. T</p>
+<p>Power Source: 5V DC (regulated)
+Microcontroller: Microchip PIC18F57Q43 Curiosity Nano
+Driver: H-Bridge (FAN8100N)
+Actuator: Bidirectional Solenoid (ROB-11015)
+Indicator: LED
+Communication: Digital I/O via Connector 2</p>
 <h2 id="block-diagram">Block Diagram</h2>
 <p>The following image shows my individual block diagram created for the EGR 304 project, illustrating the current sensing and alert system using the PIC18F57Q43 Curiosity Nano microcontroller.
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Screenshot%202025-10-26%20202639.png" data-desc-position="bottom"><img alt="Example of Indivial Block diagram " src="../Screenshot%202025-10-26%20202639.png"></a></p>
