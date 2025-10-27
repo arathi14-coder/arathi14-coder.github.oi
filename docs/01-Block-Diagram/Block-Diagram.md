@@ -16,5 +16,5 @@ Communication:RX line to Connector 2 (digital/analog expansion)
 
 ## Block Diagram 
 The following image shows my individual block diagram created for the EGR 304 project, illustrating the current sensing and alert system using the PIC18F57Q43 Curiosity Nano microcontroller.
-![Example of Indivial Block diagram ](Induvisualblockdiagram.png)
+![Example of Indivial Block diagram ](Screenshot 2025-10-26 202639.png)
 
