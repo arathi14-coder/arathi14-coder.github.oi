@@ -2,26 +2,23 @@
 title: Component Selection Example
 ---
 
-## Examples
 
-**External Clock Module**
+1. H-Bridge
 
-1. XC1259TR-ND surface mount crystal
+    ![](Screenshot%202025-10-27%20111725.png)
 
-    ![](Screenshot%202025-10-27%20100652.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $1.16/each
+    * [link to product](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | easy to interface with PIC microcontroller.                               | Requires careful wiring and filtering to avoid voltage spikes |
+    | Can handle up to 3 A peak current, sufficient for 5 V small actuators.                      | Requires external power management.                                        |
+    | Compact and supports direct logic-level control from microcontroller pins |
 
 1. Bidirectional Solenoid
 
-    ![](image3.png)
+    ![](Screenshot%202025-10-27%20100652.png)
 
     * $6.50/each
     * [Link to product](https://www.digikey.com/en/products/detail/sparkfun-electronics/11015/6163694)
