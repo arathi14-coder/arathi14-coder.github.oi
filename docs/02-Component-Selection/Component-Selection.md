@@ -16,7 +16,7 @@ title: Component Selection Example
     | Compatible with 12 V systems                      | Requires higher current, leading to more heat and power loss.                                        |
     |Compact and lightweight design |
 
-1. Bidirectional Solenoid
+2. Bidirectional Solenoid (SparkFun ROB-11015, 5 V DC)
 
     ![](Screenshot%202025-10-27%20100652.png)
 
@@ -29,6 +29,6 @@ title: Component Selection Example
     | Compact open-frame design                                 | Short 4.5 mm stroke may limit motion range |
     | Low current draw allows safe operation via H bridge|
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: Bidirectional Solenoid (SparkFun ROB-11015, 5 V DC)
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:*The SparkFun ROB-11015 5 V solenoid  provides the same push-pull capability at a lower voltage, making it completely compatible with the H-Bridge and 5 V power supply used in the Spark Guard project. As a result, there is no longer a requirement for an extra 12 V source, which lowers power losses and circuit complexity. 
