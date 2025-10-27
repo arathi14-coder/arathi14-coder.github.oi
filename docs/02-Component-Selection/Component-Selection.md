@@ -3,18 +3,18 @@ title: Component Selection Example
 ---
 
 
-1. H-Bridge
+1. Adafruit 412 (12 V Solenoid – 1528-1551-ND)
 
-    ![](Screenshot%202025-10-27%20111725.png)
+    ![](Screenshot%202025-10-27%20125659.png)
 
-    * $1.16/each
-    * [link to product](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
+    * $7.50/each
+    * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/412/5819056)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | easy to interface with PIC microcontroller.                               | Requires careful wiring and filtering to avoid voltage spikes |
-    | Can handle up to 3 A peak current, sufficient for 5 V small actuators.                      | Requires external power management.                                        |
-    | Compact and supports direct logic-level control from microcontroller pins |
+    | Higher pulling force for heavier mechanical loads.                               | Needs separate 12 V supply |
+    | Compatible with 12 V systems                      | Requires higher current, leading to more heat and power loss.                                        |
+    |Compact and lightweight design |
 
 1. Bidirectional Solenoid
 
