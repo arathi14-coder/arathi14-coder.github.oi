@@ -6,29 +6,33 @@ tags:
 ---
 <center>
 <font size= "6"> Ayush Rathi Datasheet</font><br>
-as part of<br>
-<font size= "6"> Project Name
+<font size= "4">as part of<br>
+<font size= "4"> Spark Guard
 for<br>
-<font size= "5"> Team  </font><br>
+<font size= "4"> Team 203 </font><br>
 
 **Submission: sept, 09, 2025**
 </center>
 <font size= "5">  
 ## Introduction
 
-* This is into to github and setting up a git and forking it 
+* The Spark Guard is a smart extension cord designed to enhance electrical safety through automation and feedback. Using the PIC18F57Q43 Curiosity Nano as the main controller, Spark Guard detects unsafe conditions and automatically locks or unlocks the outlet cover using a bidirectional solenoid. An LED indicator provides a visual cue of current flow, ensuring users are aware when power is active.
 
 ### Project Summary
 
-* This is the first assignment with git hub where students create their own public rep and publish it
+Spark Guard combines electrical safety and smart control in a compact design. The project team divided responsibilities into subsystems sensing, control, actuation and indication.
 
-
-
+*The sensing module detects voltage, current, or voice commands.
+*The control unit (PIC microcontroller) processes input data and sends signals to actuators.
+*The actuation module operates a 5 V bidirectional solenoid through an H-Bridge driver to open or close the outlet lid.
+*The indication system uses LEDs to show real-time status of current flow.
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* Connect and program the Microchip PIC18F57Q43 Curiosity Nano to control the H-Bridge.
+* Configured the H-Bridge to drive a bidirectional solenoid that locks/unlocks the outlet lid.
+* Integrated a status LED that turns ON when current is present and OFF when no current flows for user safety feedback.
+
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
