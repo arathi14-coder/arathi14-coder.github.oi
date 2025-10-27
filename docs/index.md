@@ -13,10 +13,10 @@ as part of<br>
 
 **Submission: sept, 09, 2025**
 </center>
-<font size= "5">  
+<font size= "4">  
 ## Introduction
 
-* The Spark Guard is a smart extension cord designed to enhance electrical safety through automation and feedback. Using the PIC18F57Q43 Curiosity Nano as the main controller, Spark Guard detects unsafe conditions and automatically locks or unlocks the outlet cover using a bidirectional solenoid. An LED indicator provides a visual cue of current flow, ensuring users are aware when power is active.
+The Spark Guard is a smart extension cord designed to enhance electrical safety through automation and feedback. Using the PIC18F57Q43 Curiosity Nano as the main controller, Spark Guard detects unsafe conditions and automatically locks or unlocks the outlet cover using a bidirectional solenoid. An LED indicator provides a visual cue of current flow, ensuring users are aware when power is active.
 
 ### Project Summary
 
