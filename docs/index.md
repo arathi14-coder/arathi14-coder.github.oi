@@ -5,11 +5,11 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6"> Ayush Rathi Datasheet</font><br>
-<font size= "4">as part of<br>
-<font size= "4"> Spark Guard
-for<br>
-<font size= "4"> Team 203 </font><br>
+<font size= "8"> Ayush Rathi Datasheet</font><br>
+as part of<br>
+<font size= "6"> Spark Guard
+<br>for
+<font size= "5"> Team 203 </font><br>
 
 **Submission: sept, 09, 2025**
 </center>
