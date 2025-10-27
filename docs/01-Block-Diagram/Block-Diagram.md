@@ -11,11 +11,11 @@ The purpose of this block diagram is to illustrate the design and signal flow of
 A LED indicator provides feedback on current flow, ensuring the user knows when the circuit is active or safe to touch. This system is powered by a regulated 5V DC supply and communicates with the main controller through the digital I/O expansion connector. T
 
 * Power Source: 5V DC (regulated)
-*Microcontroller: Microchip PIC18F57Q43 Curiosity Nano
-*Driver: H-Bridge (FAN8100N)
-*Actuator: Bidirectional Solenoid (ROB-11015)
-*Indicator: LED
-*Communication: Digital I/O via Connector 2
+* Microcontroller: Microchip PIC18F57Q43 Curiosity Nano
+* Driver: H-Bridge (FAN8100N)
+* Actuator: Bidirectional Solenoid (ROB-11015)
+* Indicator: LED
+* Communication: Digital I/O via Connector 2
 
 ## Block Diagram 
 The following image shows my individual block diagram created for the EGR 304 project, illustrating the current sensing and alert system using the PIC18F57Q43 Curiosity Nano microcontroller.
