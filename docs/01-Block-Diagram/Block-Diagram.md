@@ -6,18 +6,22 @@ tags:
 ---
 
 ## Overview
-The purpose of this block diagram is to illustrate the design and signal flow of the locking mechanism and safety indicator system for the Smart Extension Cord. This subsystem uses the Microchip PIC18F57Q43 Curiosity Nano microcontroller to control a bidirectional solenoid through an H-Bridge driver, enabling automated locking and unlocking of the outlet cover for enhanced user safety.
+The Spark Guard system operates at regulated 5 V DC level. Power from a 9 V 3 A source is stepped down using a Pololu 5 V 2.2 A Regulator. The Microchip PIC18F57Q43 Curiosity Nano acts as the main controller, processing digital inputs and driving both an LED indicator and a bidirectional solenoid through a H-Bridge. The circuit integrates all modules through a common 5 V supply for consistent operation.
 
-A LED indicator provides feedback on current flow, ensuring the user knows when the circuit is active or safe to touch. This system is powered by a regulated 5V DC supply and communicates with the main controller through the digital I/O expansion connector. 
+***Power Source**
+*120 V AC mains converted to 9 V DC using an adapter.
+*Pololu 5 V Regulator supplies the entire circuit with a stable 5 V.
 
-* Power Source: 5V DC (regulated)
-* Microcontroller: Microchip PIC18F57Q43 Curiosity Nano
-* Driver: H-Bridge (FAN8100N)
-* Actuator: Bidirectional Solenoid (ROB-11015)
-* Indicator: LED
-* Communication: Digital I/O via Connector 2
+**Inputs**
+*Digital Input 1: Armando → connected to RB0 on the microcontroller.
+*Digital Input 2: Manny → connected to RB2 on the microcontroller.
+
+**Actuator**
+*Red LED indicator for system status.
+*Bidirectional solenoid (SparkFun #11015) controlled through FAN8100N H-Bridge.
+
 
 ## Block Diagram 
 The following image shows my individual block diagram created for the EGR 304 project, illustrating the current sensing and alert system using the PIC18F57Q43 Curiosity Nano microcontroller.
-![Example of Indivial Block diagram ](Screenshot 2025-10-26 202639.png)
+![Example of Indivial Block diagram ](Ayush_blockdiagram.drawio (4).png)
 
