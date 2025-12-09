@@ -21,7 +21,6 @@ The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
 
 <object data="arathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="arathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="arathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pdf">Download PDF</a>.</p>
     </embed>
 </object><br><br>
 
@@ -44,3 +43,4 @@ and a ZIP file of it as well [*here*][def].
 The Geber file as a PDF download is available [*here*](Geber Project 1.pdf), and a ZiP file of it aswell [*here*](Project 1 (1)-F_Mask.zip).
 
 [def]: ./Project1_F_Mask.zip
+[def2]: rathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pd
