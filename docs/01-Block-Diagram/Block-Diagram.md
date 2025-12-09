@@ -11,31 +11,28 @@ The Spark Guard actuator subsystem is designed to physically lock and unlock the
 Two push buttons are included for manual debugging, allowing local control of PUSH (extend) and PULL (retract) movement without needing external input.
 
 Power Stage: 9V to 5V 2.2A Regulator (TI MSR5-0R005F1)
-**Steps down the shared team power supply to a safe and stable 5 V for the PIC microcontroller and H-Bridge.
-**Ensures enough current for solenoid actuation without dropping voltage.
+Steps down the shared team power supply to a safe and stable 5 V for the PIC microcontroller and H-Bridge.
+Ensures enough current for solenoid actuation without dropping voltage.
 
 Microchip PIC18F57Q43 Curiosity Nano
-**Main controller that receives two digital inputs from teammates.
-**Generates two digital outputs to the H-Bridge to control solenoid direction.
-**Serves as the "brain" of the actuator subsystem.
-**Allows debugging using local buttons without teammates' boards.
+Main controller that receives two digital inputs from teammates.
+Generates two digital outputs to the H-Bridge to control solenoid direction.
+Serves as the "brain" of the actuator subsystem.
+Allows debugging using local buttons without teammates' boards.
 
-**Inputs**
+Inputs
 Digital Input 1: Armandoconnected to connector 1 on the microcontroller, indicating when to turn ON the LED.
 Digital Input 2: Manny: connected to connector 2 on the microcontroller, indicating when to actuate the solenoid (open/close event request).
 
 Push Buttons: used for debugging 
-**pen Button - (Solenoid Pull)
-**Close Button - (Solenoid Push)
+Push Button - (Solenoid Pull)
+Close Button - (Solenoid Push)
 
 H-Bridge (Fairchild FAN8100N)
-**Takes directional control signals from the PIC.
-**Reverses current polarity through the solenoid.
-**Enables full bidirectional motion which is required for Spark Guard cover movement.
+Takes directional control signals from the PIC.Reverses current polarity through the solenoid. Enables full bidirectional motion which is required for Spark Guard cover movement.
 
 Solenoid (SparkFun #11015 Bidirectional): 
-**Physical actuator responsible for cover lock/unlock function.
-**Pulls or pushes based on H-Bridge output.
+Physical actuator responsible for cover lock/unlock function.Pulls or pushes based on H-Bridge output.
 
 8 pin connectors:
 Two 8-pin headers route signals between teammate boards and mine.
