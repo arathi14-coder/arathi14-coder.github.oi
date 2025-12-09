@@ -15,6 +15,7 @@ These 3D renders show the current PCB layout from KiCad. The board includes:
 ![Front view ](Screenshot 2025-12-09 075928.png)
 !back view](Screenshot 2025-12-09 075928.png)<br><br><br><br>
 
+The PCB file download is available [*here*](./Project1.kicad_pcb)
 
 The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
 
@@ -26,10 +27,12 @@ The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
     </embed>
 </object><br><br>
 
+**[Open PCB PDF](./Geber_Project1.pdf)**
 
 **[Open PCB PDF](06-PCB/Geber Project 1.pdf)**
 <embed src="gerbers/pcb_gerber.pdf" type="application/pdf" width="100%" height="600px" />
 
+---
 
 **Layout Notes**
 - High-current traces for the solenoid are widened on the 5 V path.
@@ -37,5 +40,9 @@ The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
 - A ground plane on the back layer helps with signal integrity and heat spreading.
 - Component placement is optimized for debugging and measurement access.
 
+The Gerber file as a PDF download is available [*here*](./Geber_Project1.pdf),  
+and a ZIP file of it as well [*here*][def].
 
 The Geber file as a PDF download is available [*here*](Geber Project 1.pdf), and a ZiP file of it aswell [*here*](Project 1 (1)-F_Mask.zip).
+
+[def]: ./Project1_F_Mask.zip
