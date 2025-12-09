@@ -12,22 +12,16 @@ These 3D renders show the current PCB layout from KiCad. The board includes:
 - Red LED indicator
 - Solenoid connection terminals and I/O headers
 
-![Front view](Screenshot 2025-12-09 075928.png)
-![back view](Screenshot 2025-12-09 075928.png)<br><br><br><br>
+![Front view](FRONT.png)
+
+![back view](BACK.png)
+
 
 The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
 
 ## ECAD Layout
 
-<object data="arathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="arathi14-coder/arathi14-coder.github.oi/docs/06-PCB/Geber Project 1.pdf">
-    </embed>
-</object><br><br>
-
-**[Open PCB PDF](./Geber_Project1.pdf)**
-
-**[Open PCB PDF](06-PCB/Geber Project 1.pdf)**
-<embed src="gerbers/pcb_gerber.pdf" type="application/pdf" width="100%" height="600px" />
+![PCB](copper.png)
 
 ---
 
