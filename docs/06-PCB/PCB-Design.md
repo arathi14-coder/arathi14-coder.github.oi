@@ -12,9 +12,9 @@ These 3D renders show the current PCB layout from KiCad. The board includes:
 - Red LED indicator
 - Solenoid connection terminals and I/O headers
 
-![Front view ](Screenshot 2025-12-09 075928.png){style="width:350px; height:300px;"}
+![Front view ](Screenshot 2025-12-09 075928.png)
 
-![back view](Screenshot 2025-12-09 075928.png){style="width:350px; height:300px;"}
+![back view](Screenshot 2025-12-09 075928.png)
 
 
 The PCB file download is available [*here*](Project 1 (1).kicad_pcb)
