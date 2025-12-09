@@ -17,7 +17,6 @@ Ensures enough current for solenoid actuation without dropping voltage.
 Microchip PIC18F57Q43 Curiosity Nano
 Main controller that receives two digital inputs from teammates.
 Generates two digital outputs to the H-Bridge to control solenoid direction.
-Serves as the "brain" of the actuator subsystem.
 Allows debugging using local buttons without teammates' boards.
 
 Inputs
@@ -25,7 +24,7 @@ Digital Input 1: Armandoconnected to connector 1 on the microcontroller, indicat
 Digital Input 2: Manny: connected to connector 2 on the microcontroller, indicating when to actuate the solenoid (open/close event request).
 
 Push Buttons: used for debugging 
-Push Button - (Solenoid Pull)
+Push Button - (Solenoid Pull), 
 Close Button - (Solenoid Push)
 
 H-Bridge (Fairchild FAN8100N)
