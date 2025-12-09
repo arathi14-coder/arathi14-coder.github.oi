@@ -6,17 +6,19 @@ tags:
 ---
 
 ## Overview
-The Spark Guard system operates at regulated 5 V DC level. Power from a 9 V 3 A source is stepped down using a Pololu 5 V 2.2 A Regulator. The Microchip PIC18F57Q43 Curiosity Nano acts as the main controller, processing digital inputs and driving both an LED indicator and a bidirectional solenoid through a H-Bridge. The circuit integrates all modules through a common 5 V supply for consistent operation.
+The Spark Guard actuator subsystem is designed to physically lock and unlock the system using a bidirectional solenoid. I am responsible for the solenoid actuation board which receives signals from two of my teammates and performs the mechanical movement using an H-Bridge. Power for the entire system originates from a 9V 3A, DC supply, which is stepped down to 5V using a Texas Instruments 5V 2.2A voltage regulator. The central controller for this subsystem is the PIC18F57Q43 Curiosity Nano, which interprets incoming digital signals and drives the solenoid accordingly.
+
+Two push buttons are included for manual debugging, allowing local control of PUSH (extend) and PULL (retract) movement without needing external input.
 
 ***Power Source**
 120 V AC mains converted to 9 V DC using an adapter
 
-*Pololu 5 V Regulator supplies the entire circuit with a stable 5 V
+*Texas Instruments 5V 2.2A voltage regulator supplies the entire circuit with a stable 5 V
 
 **Inputs**
-Digital Input 1: Armandoconnected to RB0 on the microcontroller.
+Digital Input 1: Armandoconnected to connector 1 on the microcontroller, indicating when to turn ON the LED.
 
-Digital Input 2: Manny: connected to RB2 on the microcontroller.
+Digital Input 2: Manny: connected to connector 2 on the microcontroller, indicating when to actuate the solenoid (open/close event request).
 
 **Actuator**
 Red LED indicator for system status.
