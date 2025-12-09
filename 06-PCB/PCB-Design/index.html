@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#3d-renders-from-kicad" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -712,6 +717,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PCB Design
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -721,6 +737,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-renders-from-kicad" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Renders from KiCad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecad-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      ECAD Layout
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -808,6 +859,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-renders-from-kicad" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Renders from KiCad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecad-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      ECAD Layout
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -831,6 +908,26 @@
 
   <h1>PCB Design</h1>
 
+<h2 id="3d-renders-from-kicad">3D Renders from KiCad</h2>
+<p><strong>Description</strong><br>
+These 3D renders show the current PCB layout from KiCad. The board includes:
+- PIC18F57Q43 microcontroller footprint
+- MSR5-0R005F1 5V, 2.2 A regulator 
+- FAN8100N H-bridge driver
+- Red LED indicator
+- Solenoid connection terminals and I/O headers</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot 2025-12-09 075928.png" data-desc-position="bottom"><img alt="Front view " src="Screenshot 2025-12-09 075928.png" style="width:350px; height:300px;"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot 2025-12-09 075928.png" data-desc-position="bottom"><img alt="back view" src="Screenshot 2025-12-09 075928.png" style="width:350px; height:300px;"></a></p>
+<p>The PCB file download is available <a href="../Project%201%20%281%29.kicad_pcb"><em>here</em></a></p>
+<h2 id="ecad-layout">ECAD Layout</h2>
+<p><strong><a href="06-PCB/Geber Project 1.pdf">Open PCB PDF</a></strong>
+<embed src="gerbers/pcb_gerber.pdf" type="application/pdf" width="100%" height="600px"></p>
+<p><strong>Layout Notes</strong>
+- High-current traces for the solenoid are widened on the 5 V path.
+- Decoupling capacitors are placed close to the regulator and IC power pins.
+- A ground plane on the back layer helps with signal integrity and heat spreading.
+- Component placement is optimized for debugging and measurement access.</p>
+<p>The Geber file as a PDF download is available <a href="../Geber%20Project%201.pdf"><em>here</em></a>, and a ZiP file of it aswell <a href="../Project%201%20%281%29-F_Mask.zip"><em>here</em></a>.</p>
 
 
 
@@ -838,6 +935,8 @@
 
 
 
+  
+  
 
 
 
